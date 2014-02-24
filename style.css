@@ -91,7 +91,7 @@ h3 { font-size: 16px }
 h4 { font-size: 14px }
 h5 { font-size: 12px }
 h6 { font-size: 10px }
-p { margin: 0 0 20px }
+p { margin: 0 0 0px }
 h1 a, h2 a, h3 a, h4 a { color: #000; }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover { color: #49ba86; text-decoration: none; }
 p.lead { color: #777; font-size: 21px; line-height: 27px; }
@@ -385,6 +385,10 @@ p.logged-in-as { font-size: 0.9em; margin-bottom: 20px }
 #site-navigation-wrap img{
     position: absolute;
     margin: 5px 0 0 30px;
+}
+.logo-text{
+    position: absolute;
+    margin: 15px 0 0 15px;
 }
 /* ADD BY GGICE END
 ================================================== */

@@ -12,8 +12,6 @@ if ( ! function_exists( 'wpex_logo' ) ) {
 
 		// Vars
 		$logo_img = get_theme_mod('wpex_logo');
-		$blog_name = get_bloginfo( 'name' );
-		$blog_description = get_bloginfo( 'description' );
 		$home_url = home_url(); ?>
 
 		<div id="logo" class="clr">
@@ -21,9 +19,7 @@ if ( ! function_exists( 'wpex_logo' ) ) {
 				<a href="<?php echo $home_url; ?>" title="<?php echo $blog_name; ?>" rel="home"><img src="<?php echo $logo_img; ?>" alt="<?php echo $blog_name; ?>" /></a>
 			<?php } else { ?>
 				<div class="site-text-logo clr">
-					<?php if ( $blog_description ) { ?>
-						<div class="blog-description"><?php echo $blog_description; ?></div>
-					<?php } ?>
+                    <a href="http://ice.gs/blog"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></a>
 				</div>
 			<?php } ?>
 		</div><!-- #logo -->

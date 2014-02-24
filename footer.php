@@ -29,7 +29,10 @@
 
 <div id="copyright" role="contentinfo" class="clr">
 	<div class="container clr">
-    <p>Copyright © 2013-2014  <?php bloginfo(’name’); ?>. All Rights Reserved. Designed by GGICE | <a href="https://github.com/ggice/Gsimple2" target="_blank">下载本站</a> | <script type="text/javascript">var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F288b1c370ad06386a2ee2c4dc166f15d' type='text/javascript'%3E%3C/script%3E"));</script>.</p>
+            <?php
+		// Displays copyright info
+		// See functions/copyright.php
+		wpex_copyright(); ?>
 		</div><!-- .container -->
 </div><!-- #copyright -->
 
