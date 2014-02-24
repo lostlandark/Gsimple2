@@ -27,6 +27,7 @@
 
 	<?php if ( '1' == get_theme_mod( 'wpex_nav', '1' ) ) { ?>
 		<div id="site-navigation-wrap">
+            <a href="<?php bloginfo(url)?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png"></a>
 			<div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
 			<nav id="site-navigation" class="navigation main-navigation clr container" role="navigation">
 				<a href="#sidr-main" id="navigation-toggle"><span class="fa fa-bars"></span><?php echo __( 'Menu', 'wpex' ); ?></a>

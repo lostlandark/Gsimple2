@@ -10,6 +10,6 @@
 
 if ( ! function_exists( 'wpex_social_links()' ) ) {
 	function wpex_social_links() {
-		return apply_filters( 'wpex_social_array', array( 'twitter', 'facebook', 'googleplus', 'linkedin', 'pinterest', 'vk', 'instagram', 'rss' ) );
+		return apply_filters( 'wpex_social_array', array( 'weibo','github','twitter', 'linkedin', 'pinterest', 'rss' ) );
 	} // End function
 } // End if

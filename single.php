@@ -25,6 +25,16 @@ get_header(); ?>
 					wpex_post_meta(); ?>
 				</header><!-- .page-header -->
 				<div class="entry clr">
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- 响应式设计广告 -->
+			<ins class="adsbygoogle"
+			     style="display:block"
+			     data-ad-client="ca-pub-4068035403937094"
+			     data-ad-slot="7934640520"
+			     data-ad-format="auto"></ins>
+			<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 					<?php the_content(); ?>
 				</div><!-- .entry -->
 				<footer class="entry-footer">
