@@ -51,6 +51,7 @@ $description = trim(strip_tags($description));
 <meta name="description" content="<?php echo $description; ?>" />
 <!--seo end--->
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <script src="//upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.3.min.js"></script>
 	<?php if ( get_theme_mod('wpex_custom_favicon') ) { ?>
 		<link rel="shortcut icon" href="<?php echo get_theme_mod('wpex_custom_favicon'); ?>" />
 	<?php } ?>
@@ -63,7 +64,7 @@ $description = trim(strip_tags($description));
 <body <?php body_class(); ?>>
 
 	<?php if ( '1' == get_theme_mod( 'wpex_nav', '1' ) ) { ?>
-		<div id="site-navigation-wrap">
+		<div id="fix"><div id="site-navigation-wrap">
             <?php
 				// Outputs the site logo
 				// See functions/logo.php
@@ -81,7 +82,7 @@ $description = trim(strip_tags($description));
 					'fallback_cb'		=> false
 				) ); ?>
 			</nav><!-- #site-navigation -->
-		</div><!-- #site-navigation-wrap -->
+		</div></div><!-- #site-navigation-wrap -->
 	<?php } ?>
 
 	<div id="wrap" class="clr">

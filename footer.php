@@ -7,7 +7,6 @@
  * @since Blogger 1.0
  */
 ?>
-
 	</div><!-- #main-content -->
 </div><!-- #wrap -->
 
@@ -29,13 +28,15 @@
 
 <div id="copyright" role="contentinfo" class="clr">
 	<div class="container clr">
-            <?php
+        <?php
 		// Displays copyright info
 		// See functions/copyright.php
 		wpex_copyright(); ?>
+    </div>
 		</div><!-- .container -->
 </div><!-- #copyright -->
-
 <?php wp_footer(); ?>
+<div id="gotop"></div>
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 </body>
 </html>
