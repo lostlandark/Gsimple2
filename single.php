@@ -25,7 +25,7 @@ get_header(); ?>
 					wpex_post_meta(); ?>
 				</header><!-- .page-header -->
 				<div class="entry clr">
-                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <p><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<!-- 响应式设计广告 -->
 			<ins class="adsbygoogle"
 			     style="display:block"
@@ -34,7 +34,7 @@ get_header(); ?>
 			     data-ad-format="auto"></ins>
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
+			</script></p>
 					<?php the_content(); ?>
 				</div><!-- .entry -->
 				<footer class="entry-footer">
