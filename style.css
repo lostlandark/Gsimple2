@@ -134,7 +134,7 @@ a { outline: 0 }
 .sf-menu li.sfHover > ul { display: block }
 .sf-menu a { display: block; position: relative; }
 .sf-menu ul ul { top: 0; left: 100%; }
-.sf-menu { float: left }
+.sf-menu { float: right;}
 .sf-menu ul { min-width: 160px; *width: 160px; }
 .sf-menu a { zoom: 1 }
 .sf-menu li { position: relative; white-space: nowrap; *white-space: normal; -webkit-transition: background .2s; transition: background .2s; }
@@ -385,7 +385,7 @@ p.logged-in-as { font-size: 0.9em; margin-bottom: 20px }
 ================================================== */
 #site-navigation-wrap img{
     position: absolute;
-    margin: 5px 0 0 30px;
+    margin: 5px 0 0 0;
 }
 .logo-text{
     position: absolute;

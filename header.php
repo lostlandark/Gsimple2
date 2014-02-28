@@ -65,13 +65,13 @@ $description = trim(strip_tags($description));
 
 	<?php if ( '1' == get_theme_mod( 'wpex_nav', '1' ) ) { ?>
 		<div id="fix"><div id="site-navigation-wrap">
-            <?php
+			<div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
+			<nav id="site-navigation" class="navigation main-navigation clr container" role="navigation">
+                 <?php
 				// Outputs the site logo
 				// See functions/logo.php
 				wpex_logo();
             ?>
-			<div id="sidr-close"><a href="#sidr-close" class="toggle-sidr-close"></a></div>
-			<nav id="site-navigation" class="navigation main-navigation clr container" role="navigation">
 				<a href="#sidr-main" id="navigation-toggle"><span class="fa fa-bars"></span><?php echo __( 'Menu', 'wpex' ); ?></a>
 				<?php
 				// Display main menu

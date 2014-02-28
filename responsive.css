@@ -22,7 +22,7 @@
 /* Smaller Then Desktop
 ================================================== */
 @media only screen and (max-width: 959px) {
-	a#navigation-toggle { display: block; }
+	a#navigation-toggle { display: block; float: right;}
 	#site-navigation .sf-menu{ display: none; }
 }
 /* Tablet (Portrait)
