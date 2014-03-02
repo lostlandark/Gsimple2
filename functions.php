@@ -126,5 +126,31 @@ if ( is_admin() ) {
 
 	// Header aside content
 	require_once( get_template_directory() .'/functions/header-aside.php' );
-
+}
+/*add Portfolio*/
+add_action( 'init', 'adapt_create_post_types' );
+function adapt_create_post_types() {
+	//portfolio post type
+	register_post_type( 'Portfolio',
+		array(
+		  'labels' => array(
+			'name' => __( '作品集', '' ),
+			'singular_name' => __( 'Portfolio', '' ),		
+			'add_new' => _x( '添加', 'Portfolio Project', '' ),
+			'add_new_item' => __( '添加新的作品', '' ),
+			'edit_item' => __( '编辑作品', '' ),
+			'new_item' => __( '新的作品集分类', '' ),
+			'view_item' => __( '查看作品', '' ),
+			'search_items' => __( '搜索作品集分类', '' ),
+			'not_found' =>  __( '没有找到作品集分类', '' ),
+			'not_found_in_trash' => __( '回收站里没有东西', '' ),
+			'parent_item_colon' => ''
+			
+		  ),
+		  'public' => true,
+		  'supports' => array('title','editor','excerpt','thumbnail'),
+		  'query_var' => true,
+		  'rewrite' => array( 'slug' => 'portfolio' ),
+		)
+	  );
 }
