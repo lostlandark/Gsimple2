@@ -1,6 +1,8 @@
 <?php
 /**
- * @package gsimple2
+ * @package WordPress
+ * @subpackage Blogger WPExplorer Theme
+ * @since Blogger 1.0
  * Template Name: Portfolio
  */
 get_header(); ?>
