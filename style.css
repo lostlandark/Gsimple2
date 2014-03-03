@@ -403,5 +403,64 @@ p.logged-in-as { font-size: 0.9em; margin-bottom: 20px }
 #gotop.hover{
 	background:url(images/gototop.png);color:#fff;text-decoration:none;
 }
+
+
+/*-----------------------------------------------------------------------------------*
+/* = Portfolio
+/*-----------------------------------------------------------------------------------*/
+#portfolio-wrap{
+	overflow: hidden;
+	margin-bottom: -20px;
+	width: 940px;
+}
+.portfolio-content{
+	margin-right: -20px;
+}
+
+.portfolio-overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.portfolio-overlay h3{
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+	max-width: 180px;
+	padding: 5px 7px;
+	background: #000;
+	color: #fff;
+}
+
+/*portfolio items*/
+.portfolio-item{
+	float: left;
+	width: 300px;
+	height: 300px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	overflow:hidden;
+}
+.portfolio-item a{
+	display: block;
+}
+.portfolio-item a img{
+	display: block;
+}
+.portfolio-item a img:hover{
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	-webkit-opacity: 0.8;
+}
+.thumbnail-width{
+	overflow:hidden;
+	border-bottom: 1px solid #D5D5D5;
+	padding: 0 0 30px 0;
+}
+#content-porfolio{
+
+}
 /* ADD BY GGICE END
 ================================================== */
