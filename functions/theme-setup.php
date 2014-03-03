@@ -33,7 +33,7 @@ if ( !function_exists('wpex_theme_setup') ) {
 		// Set default thumbnail size
 		set_post_thumbnail_size( 150, 150 );
         add_image_size( 'single-post-thumbnail', 940, 9999 ); // 定义日志页面的缩略图大小
-        add_image_size( 'template-portfolio',500, 500, true );
+        add_image_size( 'template-portfolio',500, 500, true );      
 	
 	} // end wpex_theme_setup
 

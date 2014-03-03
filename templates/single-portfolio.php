@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * @package WordPress
  * @subpackage Blogger WPExplorer Theme
