@@ -437,7 +437,7 @@ p.logged-in-as { font-size: 0.9em; margin-bottom: 20px }
 .portfolio-item{
 	float: left;
 	width: 300px;
-	height: 300px;
+	height: 200px;
 	margin-right: 20px;
 	margin-bottom: 20px;
 	position: relative;
@@ -448,6 +448,8 @@ p.logged-in-as { font-size: 0.9em; margin-bottom: 20px }
 }
 .portfolio-item a img{
 	display: block;
+    height:300px;
+    max-height:300px;
 }
 .portfolio-item a img:hover{
 	opacity: 0.8;
@@ -458,9 +460,6 @@ p.logged-in-as { font-size: 0.9em; margin-bottom: 20px }
 	overflow:hidden;
 	border-bottom: 1px solid #D5D5D5;
 	padding: 0 0 30px 0;
-}
-#content-porfolio{
-
 }
 /* ADD BY GGICE END
 ================================================== */
