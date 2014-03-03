@@ -7,6 +7,7 @@
  */
 get_header(); ?>
 <div id="#portfolio-wrap">
+    <article class="boxed clr">
         <div class="portfolio-content">
             <?php
             //get post type ==> portfolio
@@ -38,5 +39,6 @@ get_header(); ?>
             </article>
             <?php } endwhile; ?>
         </div><!-- /portfolio-content -->
+    </article>
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
