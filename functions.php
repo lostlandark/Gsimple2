@@ -159,7 +159,7 @@ function adapt_create_post_types() {
 	add_theme_support( 'post-thumbnails' );
     set_post_thumbnail_size( 50, 50, true ); // 普通的缩略图
     add_image_size( 'single-post-thumbnail', 940, 9999 ); // 定义日志页面的缩略图大小
-    add_image_size( 'template-portfolio',400, 400, true);
+    add_image_size( 'template-portfolio',300, 200, true);
     add_image_size( 'theindex',635,125,true);
 	add_theme_support( 'custom-background' );
 
