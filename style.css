@@ -448,8 +448,8 @@ p.logged-in-as { font-size: 0.9em; margin-bottom: 20px }
 }
 .portfolio-item a img{
 	display: block;
-    height:300px;
-    max-height:300px;
+    height:400px;
+    max-height:400px;
 }
 .portfolio-item a img:hover{
 	opacity: 0.8;
