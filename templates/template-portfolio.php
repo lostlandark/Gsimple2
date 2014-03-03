@@ -8,6 +8,9 @@
 get_header(); ?>
 <div id="#portfolio-wrap">
     <article class="boxed clr">
+        <header class="page-header clr">
+	       <h1 class="page-header-title"><?php the_title(); ?></h1>
+	    </header><!-- #page-header -->
         <div class="portfolio-content">
             <?php
             //get post type ==> portfolio

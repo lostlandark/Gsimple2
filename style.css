@@ -437,7 +437,7 @@ p.logged-in-as { font-size: 0.9em; margin-bottom: 20px }
 /*portfolio items*/
 .portfolio-item{
 	float: left;
-	width: 300px;
+	width: 290px;
 	height: 200px;
 	margin-right: 20px;
 	margin-bottom: 20px;
