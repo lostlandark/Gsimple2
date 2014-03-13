@@ -145,7 +145,7 @@ a { outline: 0 }
 .sf-menu li:hover > .sf-mega,
 .sf-menu li.sfHover > .sf-mega { display: block }
 /*styling*/
-#site-navigation-wrap { background: #000; font-family: 'Source Sans Pro', Helvetica, Arial; height: 50px; position: fixed; width: 100%; z-index: 1;}
+#site-navigation-wrap { background: #000; font-family: 'Source Sans Pro', Helvetica, Arial; height: 50px; position: fixed; width: 100%; z-index: 5;}
 #fix { background: #000; font-family: 'Source Sans Pro', Helvetica, Arial; height: 50px;}
 #site-navigation .dropdown-menu li { display: block; float: left; height: 50px; line-height: 50px; }
 #site-navigation .dropdown-menu > li { margin-left: 25px; }
