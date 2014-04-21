@@ -42,8 +42,6 @@ get_header(); ?>
             </article>
             <?php } endwhile; ?>
         </div><!-- /portfolio-content -->
-        <div class="page_navi"><?php par_pagenavi(9); ?></div>
     </article>
-    <div class="page_navi"><?php par_pagenavi(9); ?></div>
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
