@@ -115,7 +115,7 @@ function wpex_customizer_general($wp_customize) {
 		'settings'	=> 'wpex_copyright',
 		'type'		=> 'textarea',
 		'priority'	=> '8',
-	) ) );
+	) ) );  
 
 	// Theme Settings Section
 	$wp_customize->add_section( 'wpex_social' , array(
