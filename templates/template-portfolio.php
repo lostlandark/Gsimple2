@@ -42,7 +42,6 @@ get_header(); ?>
             </article>
             <?php } endwhile; ?>
         </div><!-- /portfolio-content -->
-        <?php pagination($query_string); ?>
     </article>
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
