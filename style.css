@@ -36,7 +36,7 @@ select { max-width: 100%; }
 .col.first { clear: both; margin-left: 0; }
 /* Body & Main
 ================================================== */
-body { background: #eee; color: #555; font: 14px/1.7em "Arial","Microsoft YaHei","Tahoma"; }
+body { background: url(./images/bg.jpg); color: #555; font: 14px/1.7em "Arial","Microsoft YaHei","Tahoma"; }
 body a { color: #49ba86; text-decoration: none; }
 body a:hover { text-decoration: underline; }
 .container { margin: 0 auto; width: 980px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
