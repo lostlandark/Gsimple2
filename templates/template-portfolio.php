@@ -47,4 +47,6 @@ get_header(); ?>
     </article>
     222<?php pagination($query_string); ?>  222
 </div><!--/portfolio-wrap-->
+ 222<?php pagination($query_string); ?>  222
+ 222<?php pagination($query_string); ?>  222
 <?php get_footer();?>
