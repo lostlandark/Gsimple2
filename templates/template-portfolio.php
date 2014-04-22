@@ -18,7 +18,7 @@ get_header(); ?>
                 'post_type'=>'portfolio',
                 'showposts'=> 9,
                 'posts_per_page' => -1,
-                'paged' => get_query_var('page')
+                'paged'=>$paged,
             ));
             ?>
         
@@ -41,12 +41,10 @@ get_header(); ?>
                     <div class="portfolio-overlay"><h3><?php echo the_title(); ?></h3></div><!-- portfolio-overlay -->
                 </a>
             </article>
-            <?php } endwhile; wp_reset_query();?>
-            555<?php wp_link_pages(); ?>5555  
+            <?php } endwhile;?>
+            2222<?php pagination($query_string); ?> 2222
         </div><!-- /portfolio-content -->
-        555<?php wp_link_pages(); ?>5555 
     </article>
-    555<?php wp_link_pages(); ?>5555 
-    555<?php wp_link_pages(); ?>5555 
+    222<?php pagination($query_string); ?>  222
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
