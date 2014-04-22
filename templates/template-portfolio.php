@@ -44,7 +44,6 @@ get_header(); ?>
             <?php } endwhile;?>
         </div><!-- /portfolio-content -->
     </article>
-    <div class="navigation"><p><?php posts_nav_link('&#8734;','Go 
-Forward In Time','Go Back in Time'); ?></p></div>
+    <div class="navigation-page"><p><?php posts_nav_link('&#8734;','往前看吧！','往后看吧！'); ?></p></div>
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
