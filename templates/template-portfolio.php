@@ -14,7 +14,6 @@ get_header(); ?>
         <div class="portfolio-content">
             <?php
             //get post type ==> portfolio
-            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
             query_posts(array(
                 'post_type'=>'portfolio',
                 'showposts'=> 9,
@@ -42,11 +41,9 @@ get_header(); ?>
                     <div class="portfolio-overlay"><h3><?php echo the_title(); ?></h3></div><!-- portfolio-overlay -->
                 </a>
             </article>
-            <?php } endwhile; ?>
+            <?php } endwhile; wp_reset_query();?>
+            <?php wp_link_pages(); ?>  
         </div><!-- /portfolio-content -->
-        <?php wp_link_pages(); ?>  
     </article>
-    <?php wp_link_pages(); ?>  
 </div><!--/portfolio-wrap-->
-<?php wp_link_pages(); ?>  
 <?php get_footer();?>
