@@ -42,11 +42,8 @@ get_header(); ?>
                 </a>
             </article>
             <?php } endwhile;?>
-            2222<?php pagination($query_string); ?> 2222
+            <?php pagination($query_string); ?> 
         </div><!-- /portfolio-content -->
     </article>
-    222<?php pagination($query_string); ?>  222
 </div><!--/portfolio-wrap-->
- 222<?php pagination($query_string); ?>  222
- 222<?php pagination($query_string); ?>  222
 <?php get_footer();?>
