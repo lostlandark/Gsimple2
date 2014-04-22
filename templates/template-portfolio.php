@@ -42,8 +42,10 @@ get_header(); ?>
                 </a>
             </article>
             <?php } endwhile; ?>
+            <?php wp_link_pages(); ?>  
         </div><!-- /portfolio-content -->
-        <?php wp_link_pages('before=<p>&after=</p>&next_or_number=number&pagelink=page %'); ?>
+        <?php wp_link_pages(); ?>  
     </article>
 </div><!--/portfolio-wrap-->
+<?php wp_link_pages(); ?>  
 <?php get_footer();?>
