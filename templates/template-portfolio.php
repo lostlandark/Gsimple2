@@ -44,15 +44,6 @@ get_header(); ?>
             <?php } endwhile;?>
         </div><!-- /portfolio-content -->
     </article>
-    <div class="navigation-page">
-        <div class="alignleft">
-            <?php previous_post('&laquo; &laquo; %',
-             'Toward The Past: ', 'yes'); ?>
-            </div>
-            <div class="alignright">
-            <?php next_post('% &raquo; &raquo; ',
-             'Toward The Future: ', 'yes'); ?>
-        </div>
-    </div>
+    <div class="navigation-page"><p><?php posts_nav_link('&#8734;','往前看吧！','往后看吧！'); ?></p></div>
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>

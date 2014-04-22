@@ -462,5 +462,8 @@ p.logged-in-as { font-size: 0.9em; margin-bottom: 20px }
     text-align: center;
     padding: 0 0 30px 0;
 }
+.navigation-page p{
+    background-color: url(./images/page-next.png);
+}
 /* ADD BY GGICE END
 ================================================== */
