@@ -42,8 +42,9 @@ get_header(); ?>
                 </a>
             </article>
             <?php } endwhile;?>
-            <div class="navigation"><p>dddd<?php posts_nav_link(); ?>ddd</p></div>
         </div><!-- /portfolio-content -->
     </article>
+    <div class="navigation"><p><?php posts_nav_link('&#8734;','&laquo;&laquo; Go Forward 
+In Time','Go Back in Time &raquo;&raquo;'); ?></p></div>
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
