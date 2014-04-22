@@ -42,7 +42,7 @@ get_header(); ?>
                 </a>
             </article>
             <?php } endwhile; wp_reset_query();?>
-            <?php wp_link_pages(); ?>  
+            555<?php wp_link_pages(); ?>5555  
         </div><!-- /portfolio-content -->
     </article>
 </div><!--/portfolio-wrap-->
