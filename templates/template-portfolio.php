@@ -43,6 +43,14 @@ get_header(); ?>
             </article>
             <?php } endwhile; ?>
         </div><!-- /portfolio-content -->
+        
+        <div id=”nav-below” class=”navigation”>
+            <div class=”nav-home”><a class=”home” href=”<?php echo get_settings(‘home’) ?>/”>HOME</a> | <a class=”top” href=”#content”>Top</a></div>
+            <div class=”nav-previous”><?php next_posts_link(__(‘Older posts’)) ?></div>
+            <div class=”nav-next”><?php previous_posts_link(__(‘Newer posts’)) ?></div>
+        </div>
+
+
     </article>
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
