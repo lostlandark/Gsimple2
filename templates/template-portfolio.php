@@ -44,6 +44,6 @@ get_header(); ?>
             <?php } endwhile;?>
         </div><!-- /portfolio-content -->
     </article>
-    <div class="navigation-page"><p><?php posts_nav_link('&#8734;','<img src="./images/page-next.png">','往后看吧！'); ?></p></div>
+    <div class="navigation-page"><p><?php posts_nav_link('&#8734;',<img src="<?php echo get_template_directory_uri(); ?>/images/page-next.png">,'往后看吧！'); ?></p></div>
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
