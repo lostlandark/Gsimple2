@@ -150,13 +150,14 @@ a { outline: 0 }
 #site-navigation .dropdown-menu li { display: block; float: left; height: 50px; line-height: 50px; }
 #site-navigation .dropdown-menu > li { margin-left: 25px; }
 #site-navigation .dropdown-menu > li:first-child { margin-left: 0; }
-#site-navigation .dropdown-menu a { font-size: 1.1em; color: #999; font-weight: 600; text-decoration: none; text-align: left; cursor: pointer; border-top: 3px solid transparent;}
+#site-navigation .dropdown-menu a { font-size: 1.1em; color: #999; font-weight: 600; text-decoration: none; text-align: left; cursor: pointer;}
 #site-navigation .dropdown-menu > li > a:hover,
 #site-navigation .dropdown-menu > li.sfHover > a,
 #site-navigation .dropdown-menu > .current-menu-item > a,
 #site-navigation .dropdown-menu > .current-menu-item > a:hover { color: #fff; }
 #site-navigation .dropdown-menu > .current-menu-item > a,
-#site-navigation .dropdown-menu > .current-menu-item > a:hover{ border-color: #49ba86; }
+#site-navigation .dropdown-menu > .current-menu-item > a:hover{ border-color: #49ba86;background-color: #49ba86;
+padding: 0px 10px 0 10px;}
 /*drop-down styles*/
 #site-navigation .dropdown-menu ul { background: #2F3237; font-size: 12px; }
 #site-navigation .dropdown-menu ul a { display: block; height: auto; line-height: 1.7em; padding: 7px 14px; font-weight: 400; margin: 0px; border: 0px; text-transform: none; -webkit-transition: background .2s; transition: background .2s; }
