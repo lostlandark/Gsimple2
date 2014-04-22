@@ -6,7 +6,7 @@
  * Template Name: Portfolio
  */
 get_header(); ?>
-<div id="#portfolio-wrap">
+<div id="portfolio-wrap" class="portfolio-wrap">
     <article class="boxed clr">
         <header class="page-header clr">
 	       <h1 class="page-header-title"><?php the_title(); ?></h1>
