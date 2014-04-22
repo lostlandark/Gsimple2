@@ -44,6 +44,6 @@ get_header(); ?>
             <?php } endwhile;?>
         </div><!-- /portfolio-content -->
     </article>
-    <div class="navigation-page"><p><?php posts_nav_link( ' ', '<img src="' . get_bloginfo('stylesheet_directory') . '/images/page-next.png" />', '<img src="' . get_bloginfo('stylesheet_directory') . '/images/page-previous.png" />' ); ?></p></div>
+    <div class="navigation-page"><p><?php posts_nav_link( ' ', '<img src="' . get_bloginfo('stylesheet_directory') . '/images/page-previous.png" />', '<img src="' . get_bloginfo('stylesheet_directory') . '/images/page-next.png" />' ); ?></p></div>
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
