@@ -43,8 +43,7 @@ get_header(); ?>
             </article>
             <?php } endwhile;?>
         </div><!-- /portfolio-content -->
+        <div class="navigation"><p><?php posts_nav_link('&#8734;','往前看吧！','往后看吧！'); ?></p></div>
     </article>
-    <div class="navigation"><p><?php posts_nav_link('&#8734;','&laquo;&laquo; Go Forward 
-In Time','Go Back in Time &raquo;&raquo;'); ?></p></div>
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
