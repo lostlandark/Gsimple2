@@ -16,6 +16,7 @@ get_header(); ?>
             //get post type ==> portfolio
             query_posts(array(
                 'post_type'=>'portfolio',
+                'showposts'=> 9,
                 'posts_per_page' => -1,
                 'paged'=>$paged
             ));
