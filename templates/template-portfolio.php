@@ -42,7 +42,7 @@ get_header(); ?>
                 </a>
             </article>
             <?php } endwhile;?>
-            <?php pagination($query_string); ?> 
+            <div class="navigation"><p>dddd<?php posts_nav_link(); ?>ddd</p></div>
         </div><!-- /portfolio-content -->
     </article>
 </div><!--/portfolio-wrap-->
