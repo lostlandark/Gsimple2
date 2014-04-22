@@ -18,7 +18,7 @@ get_header(); ?>
                 'post_type'=>'portfolio',
                 'showposts'=> 9,
                 'posts_per_page' => -1,
-                'paged'=>$paged,
+                'paged' => get_query_var('page')
             ));
             ?>
         
@@ -44,6 +44,9 @@ get_header(); ?>
             <?php } endwhile; wp_reset_query();?>
             555<?php wp_link_pages(); ?>5555  
         </div><!-- /portfolio-content -->
+        555<?php wp_link_pages(); ?>5555 
     </article>
+    555<?php wp_link_pages(); ?>5555 
+    555<?php wp_link_pages(); ?>5555 
 </div><!--/portfolio-wrap-->
 <?php get_footer();?>
